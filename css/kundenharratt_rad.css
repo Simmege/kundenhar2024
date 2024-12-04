@@ -1,0 +1,66 @@
+#container{
+    display: grid;
+    grid-template-rows: 10% 10% 10% 30%  30% 10%;
+    grid-template-columns: 10% 20% 5% 30% 5% 20% 10%;
+    height: 100vh;
+    width:100%;
+    grid-template-areas: 
+    'nav nav nav nav nav nav nav'
+    '. . hd hd hd . .'
+    '. . . . . . .'
+    '. sc1 . ma . sc2 .'
+  
+    '. sc1 . ma . sc2 .'
+    '. . . . . . .';
+    
+
+}
+
+body{
+    background-color:#9b59b6
+}
+
+header{
+    grid-area: hd;
+}
+
+#section1{
+    grid-area: sc1;
+    background-color: #2ecc71;
+    border: 3px solid;
+    border-radius: 1rem;
+    color:black;
+   
+    
+
+    
+}
+#section2{
+    grid-area: sc2;
+    background-color: #2ecc71;
+    border: 3px solid;
+    border-radius: 1rem;
+    color:black;
+   
+    
+}
+
+
+main{
+    grid-area: ma;
+    background-color: #2ecc71;
+    border: 3px solid;
+    border-radius: 1rem;
+    color:black;
+    
+}
+
+nav{
+    grid-area: nav;
+    background-color: #2ecc71;
+    border: 3px solid;
+    border-radius: 1rem;
+    color:black;
+    
+    
+}
