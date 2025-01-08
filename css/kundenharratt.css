@@ -19,6 +19,7 @@
 body{
     background-color:#9b59b6;
     margin:0;
+    
 }
 
 header{
@@ -113,7 +114,7 @@ nav a:hover{
     color: black;
 }
 
-.brödtext{
+.brodtext{
   
     font-family: "Roboto Condensed", serif;
     font-optical-sizing: auto;
@@ -149,29 +150,24 @@ nav a:hover{
     width:100%;
     grid-template-areas: 
     '. . . . . . .'
-    '. ins1 . ins2 . ins3 .'
+    '. ss1 . ss2 . ss3 .'
     '. . . . . . .';
     
 }
 .secondsection1{
-    grid-area: ins1;
-    border:black solid;
-    border-width: 3px;
-    border-radius:20px;
-    
+    grid-area: ss1;
+ 
+   
     
 }
 .secondsection2{
-    grid-area: ins2;
-    border:black solid;
-    border-width: 3px;
-    border-radius:20px;
+    grid-area: ss2;
+    
+    
 }
 .secondsection3{
-    grid-area: ins3;
-    border:black solid;
-    border-width: 3px;
-    border-radius:20px;
+    grid-area: ss3;
+    
 }
 
 #container_kontakt{
@@ -204,9 +200,51 @@ nav a:hover{
 }
 .thirdsection2_main{
     grid-area: ts2;
-    border:black solid;
-    border-radius: 500px;
+ 
 } 
 .thirdsection1_main{
     grid-area: ts1;
+  
+}
+
+.img{
+    height: 100%;
+    border: 3px black solid;
+    border-radius: 20px;
+   
+}
+
+.radimg{
+    height: 100%;
+    border-radius: 200px;
+    border: 3px black solid;
+}
+
+
+#kontakt_ss1{
+    grid-area: ss1;
+    border: 3px black solid;
+    border-radius: 20px;
+   
+
+}
+#kontakt_ss3{
+    grid-area: ss3;
+    border: 3px black solid;
+    border-radius: 20px;
+   
+    
+}
+#kontakt_ss2{
+    grid-area: ss2;
+    border: 3px black solid;
+    border-radius: 20px;
+   
+    
+}
+.produktimg{
+    border: 3px black solid;
+    border-radius: 20px;
+    height: 50%
+
 }
