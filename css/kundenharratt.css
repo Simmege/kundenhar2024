@@ -1,0 +1,212 @@
+#container{
+    display: grid;
+    grid-template-rows: 10% 10% 10% 30%  30% 10%;
+    grid-template-columns: 5% 25% 5% 30% 5% 25% 5%;
+    height: 100vh;
+    width:100%;
+    grid-template-areas: 
+    'nav nav nav nav nav nav nav'
+    '. . hd hd hd . .'
+    '. . . . . . .'
+    '. sc1 . ma . sc2 .'
+  
+    '. sc1 . ma . sc2 .'
+    '. . ft ft ft . .';
+    
+
+}
+
+body{
+    background-color:#9b59b6;
+    margin:0;
+}
+
+header{
+    grid-area: hd;
+    text-align: center;
+    
+    
+}
+
+.section1{
+    grid-area: sc1;
+    background-color: #2ecc71;
+    border: 3px solid;
+    border-radius: 1rem;
+    color:black;
+    text-align: center;
+    
+
+}
+
+    
+
+    
+
+
+.section2{
+
+    grid-area: sc2;
+    background-color: #2ecc71;
+    border: 3px solid;
+    border-radius: 1rem;
+    color:black;
+    text-align: center;
+   
+
+
+   
+    
+}
+
+
+main{
+    grid-area: ma;
+    background-color: #2ecc71;
+    border: 3px solid;
+    border-radius: 1rem;
+    color:black;
+    text-align: center;
+   
+    
+}
+
+nav{
+    grid-area: nav;
+    background-color: #2ecc71;
+    border: 3px solid;
+    border-radius: 1rem;
+    color:black;
+    display: flex; 
+    justify-content:center; 
+    justify-content: space-evenly;
+    
+    
+    
+}
+nav a{
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav a:hover{
+    background-color: white;
+    color: #2ecc71;
+
+}
+
+.text{
+    text-decoration: none;
+    color: black;
+    margin:3px;
+}
+
+#footer{
+    grid-area: ft;
+    text-align: center;
+
+}
+
+#footerLink{
+    color: black;
+}
+
+.brödtext{
+  
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+      
+
+#container_index{
+    display:grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: 10% 10% 10% 30% 5% 30% 5% ;
+    height:100vh;
+    width:100%;
+    grid-template-areas: 
+    'nav nav nav'
+    'hd hd hd'
+    '. . .'
+    '. sc1 .'
+    '. . .'
+    '. sc2 .'
+    '. . .'
+
+
+}
+
+.sectiondivide{
+
+    display:grid;
+    grid-template-columns: 10% 20% 10% 20% 10% 20% 10%;
+    grid-template-rows: 5% 90% 5%; 
+    height: 100%;
+    width:100%;
+    grid-template-areas: 
+    '. . . . . . .'
+    '. ins1 . ins2 . ins3 .'
+    '. . . . . . .';
+    
+}
+.secondsection1{
+    grid-area: ins1;
+    border:black solid;
+    border-width: 3px;
+    border-radius:20px;
+    
+    
+}
+.secondsection2{
+    grid-area: ins2;
+    border:black solid;
+    border-width: 3px;
+    border-radius:20px;
+}
+.secondsection3{
+    grid-area: ins3;
+    border:black solid;
+    border-width: 3px;
+    border-radius:20px;
+}
+
+#container_kontakt{
+    display:grid;
+    grid-template-rows: 10% 10% 5% 30% 5% 40%;
+    grid-template-columns: 10% 80% 10%;
+    height: 100vh;
+    width:100%;
+    grid-template-areas: 
+    'nav nav nav'
+    'hd hd hd'
+    '. . .'
+    '. sc1 .'
+    '. . .'
+    '. ma .'
+ 
+
+
+}
+.thirddiv_main{
+    display:grid;
+    grid-template-rows: 70% 30%;
+    grid-template-columns: 15% 70% 15%;
+    height: 100%;
+    width:100%;
+    grid-template-areas: 
+    '. ts2 .'
+    '. ts1 .';
+ 
+}
+.thirdsection2_main{
+    grid-area: ts2;
+    border:black solid;
+    border-radius: 500px;
+} 
+.thirdsection1_main{
+    grid-area: ts1;
+}
